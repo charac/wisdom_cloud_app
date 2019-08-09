@@ -1,0 +1,197 @@
+
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-weight: normal;
+    font-family: "Hiragino, SansGB-W3, Microsoft Yahei, PingFangSC, sans-serif";
+    box-sizing: border-box;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    color: @textColor;
+    &:hover{
+        outline: none;
+    }
+    // /* 禁止点击后有蓝色背景  此代码可导致IOS端无法输入 */ 
+    // -moz-user-select:none;/*火狐*/
+    // -webkit-user-select:none;/*webkit浏览器*/
+    // -ms-user-select:none;/*IE10*/
+    // -khtml-user-select:none;/*早期浏览器*/
+    // user-select:none;
+}
+/* 禁止点击后文字被选中且蓝色背景 */
+[contenteditable = "true"], input, textarea {
+    -webkit-user-select: auto!important;
+    -khtml-user-select: auto!important;
+    -moz-user-select: auto!important;
+    -ms-user-select: auto!important;
+    -o-user-select: auto!important;
+    user-select: auto!important;
+    outline: none;
+}
+// @media all and (orientation: portrait) {
+//     body div {background: red;} 
+//     }
+// @media all and (orientation: landscape) { 
+//     body div {background: blue; } 
+// }
+// /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+// ::-webkit-scrollbar  
+// {  
+//     width: 0px;  
+//     height: 0px;  
+//     background-color: #F5F5F5;  
+// }  
+  
+// /*定义滚动条轨道 内阴影+圆角*/  
+// ::-webkit-scrollbar-track  
+// {  
+//     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);  
+//     border-radius: 10px;  
+//     background-color: #F5F5F5;  
+// }  
+  
+// /*定义滑块 内阴影+圆角*/  
+// ::-webkit-scrollbar-thumb  
+// {  
+//     border-radius: 10px;  
+//     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+//     background-color: #555;  
+// }  
+
+// input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+//     -webkit-appearance: none;
+// }
+
+// textarea { -webkit-appearance: none;}   
+
+
+
+
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.paddingTop{
+    padding-top: 1.95rem;
+}
+
+@keyframes backOpacity{
+   0%   { opacity: 1 }
+   25%  { opacity: .5 }
+   50%  { opacity: 1 }
+   75%  { opacity: .5 }
+   100% { opacity: 1 }
+}
+
+.animation_opactiy{
+    animation: backOpacity 2s ease-in-out infinite;
+}
+
+/* flex布局 */
+.display-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+.flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.flex--5 {
+    -webkit-box-flex: .5;
+    -webkit-flex: .5;
+    -ms-flex: .5;
+    flex: .5;
+}
+/* 字号 */ 
+.font40 {
+    font-size: 0.4rem;
+}
+.font36 {
+    font-size: @fontSize36;
+}
+.font34 {
+    font-size: 0.34rem;
+}
+.font33 {
+    font-size: 0.33rem;
+}
+.font32 {
+    font-size: @fontSize32;
+}
+.font30 {
+    font-size: @fontSize30;
+}
+.font28 {
+    font-size: @fontSize28;
+}
+.font26 {
+    font-size: 0.26rem;
+}
+.font24 {
+    font-size: 0.24rem;
+}
+.font20 {
+    font-size: 0.2rem;
+}
+.font19 {
+    font-size: 0.19rem;
+}
+.font17 {
+    font-size: 0.17rem;
+}
+.font14 {
+    font-size: 0.14rem;
+}
+.font10 {
+    font-size: 0.10rem;
+}
+/* 暂无数据 */
+.empty-data {
+    height: 100%;
+    font-size: 0.4rem;
+    text-align: center;
+    color: #666;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background: #eff3fb;
+    img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:359px) {
+	html {
+		font-size: 85.33px;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:374px) {
+	html {
+		font-size: 96px;
+	}
+}
+
+@media screen and (min-width:375px) and (max-width:411px) {
+	html {
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width:412px) and (max-width:414px) {
+	html {
+		font-size: 110px;
+	}
+}
+

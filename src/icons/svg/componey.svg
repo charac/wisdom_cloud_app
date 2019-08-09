@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="42px" viewBox="0 0 38 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>gongsi copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.9765737%" id="linearGradient-1">
+            <stop stop-color="#70B0F0" offset="0%"></stop>
+            <stop stop-color="#3076E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="确认行业" transform="translate(-60.000000, -344.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="gongsi-copy" transform="translate(60.000000, 344.000000)">
+                <path d="M34.1875639,39.3526875 L34.1875639,4.7656875 L28.7908229,0 L10.827163,6.801375 L10.827163,8.502375 L27.1404514,2.932125 L27.1404514,41.8490625 L38,41.8490625 L38,39.3526875 L34.1875639,39.3526875 Z M4.98220495,28.6978125 L13.5358969,26.964 L13.5358969,22.5658125 L4.98220495,24.845625 L4.98220495,28.6978125 Z M4.98220495,41.908125 L13.5358969,41.908125 L13.5358969,37.293375 L4.98220495,37.9220625 L4.98220495,41.908125 Z M4.98220495,35.2813125 L13.5358969,34.4439375 L13.5358969,30.053625 L4.98220495,31.5105 L4.98220495,35.2813125 Z M4.98220495,21.9883125 L13.5358969,19.600875 L13.5358969,15.0346875 L4.98220495,17.9668125 L4.98220495,21.9883125 Z M23.0235904,10.6299375 L18.1942456,7.6558125 L0.00906797573,14.2996875 L0,42 L2.39524102,42 L2.39524102,15.63975 L16.0010909,11.0998125 L16.0010909,41.85825 L23.0248858,41.85825 L23.0248858,10.6299375 L23.0235904,10.6299375 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
